@@ -1,4 +1,8 @@
 // START OF HEADER STYLES
+.topBar .wrapper{
+    display:flex;
+    justify-content: space-between;
+}
 .topBar{
     background:$bgPrimary;
     padding:1px;
@@ -8,10 +12,28 @@
     padding:1px;
 }
 .tagline{
-    width:55px;
+    width:40%;
 }
 .logo{
-    width:100%;
+    width:50px;
+}
+.name{
+    color:white;
+    font-weight:bold;
+    line-height:1.6;
+    letter-spacing: 2px;
+    font-size:0.8rem;
+}
+.topNav{
+    width:40%;
+}
+.topNav a{
+    color:white;
+    text-transform: uppercase;
+    font-weight:bold;
+    line-height:1.6;
+    letter-spacing: 2px;
+    font-size:0.8rem;
 }
 
 //END OF HEADER STYLES

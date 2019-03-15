@@ -151,6 +151,14 @@ img {
   width: 80%;
   margin: 0 auto; }
 
+.topBar .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
 .topBar {
   background: #222533;
   padding: 1px; }
@@ -160,9 +168,27 @@ img {
   padding: 1px; }
 
 .tagline {
-  width: 55px; }
+  width: 40%; }
 
 .logo {
-  width: 100%; }
+  width: 50px; }
+
+.name {
+  color: white;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 0.8rem; }
+
+.topNav {
+  width: 40%; }
+
+.topNav a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 0.8rem; }
 
 /*# sourceMappingURL=styles.css.map */
