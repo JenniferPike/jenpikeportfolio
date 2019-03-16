@@ -1,0 +1,20 @@
+.mySkills{
+    h2{
+        text-align: center
+    }
+}
+
+.skillsList1{
+    display:flex;
+    justify-content:space-evenly;
+    li{
+        font-size:100px;
+    }
+}
+.skillsList2{
+    display:flex;
+    justify-content:space-around;
+    li{
+        font-size:100px;
+    }
+}

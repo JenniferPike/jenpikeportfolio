@@ -1,6 +1,20 @@
 //COLOR PALETTE VARIABLES
-$bgPrimary:#222533; //dark gun metal(34, 37, 51)
-$bgSecondary:#3b414e; // (59,65,78)
+$bgPrimary:#222533; //Dark Gun Metal(34, 37, 51)
+$bgSecondary:#3C414E; // Arsenic (60, 65, 78)
+$bgThird:#2e3141; //Gun metal (46, 49, 65
+$bgFourth:#5B5B64; //Black Coral (91, 91, 100)
+$bgFifth:#646C77; //Paynes Grey (100, 108, 119)
+
+//accent colours
+$accent1:#B1CD67; //Middle Green Yellow (177, 205, 103)
+$accent2:#83D0E4; // Middle Blue (131, 208, 228)
+$accent3:#EC9476; //Dark Salmon (236, 148, 118)
+$accent4:#968BA2; //Manatee (150,139,162)
+$accent5:#B3D891;//Medium Spring Bud (179, 216, 145)
+
+
+// $fcPrimary:;
+// $primaryFont:;
 
 
 //FONT VARIABLES
@@ -10,3 +24,12 @@ $bgSecondary:#3b414e; // (59,65,78)
     // Playfair Display (Google Font)
     // Futura PT Bold (Adobe Typekit)
     // Myriad Set Pro Fonts (by simalary44)
+
+
+
+    // mixin example
+// @mixin title($size-value) {
+//     font-family: 'Staatliches', cursive;
+//     font-size: $size-value;
+//     text-transform: uppercase;
+// }

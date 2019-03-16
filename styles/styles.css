@@ -147,6 +147,9 @@ a {
 img {
   width: 100%; }
 
+h1, h2, h3 {
+  margin: 0; }
+
 .wrapper {
   width: 80%;
   margin: 0 auto; }
@@ -164,7 +167,7 @@ img {
   padding: 1px; }
 
 .heading {
-  background: #3b414e;
+  background: #3C414E;
   padding: 1px; }
 
 .tagline {
@@ -190,5 +193,27 @@ img {
   line-height: 1.6;
   letter-spacing: 2px;
   font-size: 0.8rem; }
+
+.mySkills h2 {
+  text-align: center; }
+
+.skillsList1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+  .skillsList1 li {
+    font-size: 100px; }
+
+.skillsList2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .skillsList2 li {
+    font-size: 100px; }
 
 /*# sourceMappingURL=styles.css.map */
