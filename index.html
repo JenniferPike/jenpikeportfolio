@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jen Pike</title>
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -28,33 +29,47 @@
                     </div>
                 </div>
                 <nav class="topNav">
+                    <button><i class="fas fa-bars" aria-hidden="true"></i><span class="sr-only">Open Menu</span></button>
                     <ul>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
                         <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
         <div class="heading">
-            <h1>Jen Pike</h1>
+            <div class="headName">
+                <h1>Jen Pike</h1>
+                <h2>Front-End Web Developer</h2>
+            </div>
         </div>
     </header>
     <main>
-        <section class="aboutMe">
+        <section class="aboutMe" id="about">
             <div class="wrapper">
-                <div>
+                <div class="aboutMeTitle">
                     <h2>About Me</h2>
                 </div>
                 <div class="about">
-                    <p>
-                        Hello, I'm Jennifer a Front-End Web Developer student studying at HackerYou in the Immersive Web Development Bootcamp. Through HackerYou I've learned a lot about HTML, CSS, JavaScript and how to make websites responsive.
-                    </p>
+                    <div class="headshot">
+                        <img src="assets/headshot.jpg" alt="">
+                    </div>
+                    <div class="bio">
+                        <p>
+                            Hello, I'm Jen, a Front-End Web Developer from Ajax Ontario. I have a passion for coding and seeing how everything comes together. A recent graduate of HackerYou's immersive Bootcamp, a big fan of puns and all things fluffy! My chocolate lab
+                            Brown Dog is the most calming feature in my life, and when I'm not coding, a adventure to my cottage with him is where
+                            you will likely find me.
+                        </p>
+                        <p>
+                            Before taking the leap into Web Development I was a Veterinary Technician specializing in Companion Animal Rehab. Working with animals and their humans during stressful situations helped me to develop great communication skills, a strong sense of compassion, as well as a desire to always be learning new things.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="mySkills">
+        <section class="mySkills" id="skills">
             <div class="wrapper">
                 <div>
                     <h2>Skills</h2>
@@ -77,16 +92,34 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <div>
                 <h2>Projects</h2>
             </div>
         </section>
     </main>
-    <footer class="contact">
-        <div>
-            <h2>Contact Me!</h2>
+    <footer class="contact" id="contact">
+        <div class="wrapper">
+            <div class="contactTitle">
+                <h2>Contact Me!</h2>
+            </div>
+            <div class="contactInfo">
+                <ul>
+                    <li>Jen Pike</li>
+                    <li>905-767-4706</li>
+                    <li>jen@jenpike.ca</li>
+                </ul>
+            </div>
+            <div class="socialMedia">
+                <nav>
+                    <li><a href="#twitter"></a></li>
+                    <li><a href="#linkedIn"></a></li>
+                    <li><a href="#github"></a></li>
+                    <li><a href="#medium"></a></li>
+                </nav>
+            </div>
         </div>
+        
     </footer>
 </body>
 </html>

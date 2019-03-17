@@ -158,8 +158,7 @@ h1, h2, h3 {
   margin: 0 auto; }
 
 .topBar {
-  background: #222533;
-  padding-top: 17px; }
+  background: #222533; }
   .topBar .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -169,32 +168,57 @@ h1, h2, h3 {
     justify-content: space-between; }
 
 .heading {
-  background: #3C414E;
-  padding: 1px; }
+  background: -webkit-linear-gradient(125deg, rgba(60, 65, 78, 0.92) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
+  background: -o-linear-gradient(125deg, rgba(60, 65, 78, 0.92) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
+  background: linear-gradient(325deg, rgba(60, 65, 78, 0.92) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 1px;
+  height: calc(100vh - 65px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
   .heading h1 {
-    font-size: 5em;
-    text-align: center;
+    font-size: 6rem;
     color: white; }
+  .heading h2 {
+    color: #B1CD67;
+    font-size: 1.5rem; }
+  .heading .headName {
+    height: 50vh;
+    margin-left: 125px; }
 
 .tagline {
   width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-.logo {
-  width: 42px;
-  margin-right: 17px; }
-
-.name {
-  color: white;
-  font-weight: bold;
-  line-height: 1.6;
-  letter-spacing: 2px;
-  font-size: 1.1rem; }
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .tagline .logo {
+    width: 42px;
+    margin-right: 17px; }
+  .tagline .name {
+    color: white;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 1.1rem; }
 
 .topNav {
   width: 45%; }
+  .topNav button {
+    color: #83D0E4;
+    border: none;
+    background: none; }
   .topNav a {
     color: white;
     text-transform: uppercase;
@@ -202,24 +226,41 @@ h1, h2, h3 {
     line-height: 1.6;
     letter-spacing: 2px;
     font-size: 0.8rem; }
+  .topNav a:hover {
+    color: #EC9476; }
   .topNav ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
-    border: 2px solid aliceblue; }
+    justify-content: space-between; }
 
 .aboutMe {
   background: #2e3141; }
+
+.aboutMeTitle {
+  color: #EC9476; }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .about .headshot {
+    width: 30%; }
+  .about .bio {
+    color: white;
+    width: 60%; }
 
 .mySkills {
   background: #222533;
   padding-top: 20px; }
   .mySkills h2 {
     text-align: center;
-    color: white;
+    color: #83D0E4;
     font-size: 1.8rem; }
 
 .skillsList1 {

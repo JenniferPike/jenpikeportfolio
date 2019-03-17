@@ -1,3 +1,18 @@
 .aboutMe{
     background: $bgThird;
 }
+.aboutMeTitle{
+    color:$accent3;
+    
+}
+.about{
+    display:flex;
+    justify-content:space-between;
+    .headshot{
+        width:30%;
+    }
+    .bio{
+        color:white;
+        width:60%;
+    }
+}

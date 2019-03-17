@@ -1,38 +1,58 @@
 // START OF HEADER STYLES
 .topBar{
     background:$bgPrimary;
-    padding-top:17px;
     .wrapper{
         display:flex;
         justify-content: space-between;
     }
 }
 .heading{
-    background:$bgSecondary;
+    background: linear-gradient(325deg, rgba(60,65,78,0.92) 10%, rgba(60,65,78,1) 55%, rgba(60,65,78,1)), url(../assets/brown3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center top;
     padding:1px;
+    height:calc(100vh - 65px);
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
     h1{
-        font-size:5em;
-        text-align:center;
+        font-size:6rem;
         color:white;
     }
+    h2{
+        color:$accent1;
+        font-size:1.5rem;
+    }
+    .headName{
+        height:50vh;
+        margin-left:125px;
+    }   
 }
 .tagline{
     width:40%;
     display:flex;
-}
-.logo{
-    width:42px;
-    margin-right:17px;
-}
-.name{
-    color:white;
-    font-weight:bold;
-    line-height:1.6;
-    letter-spacing: 2px;
-    font-size:1.1rem;
+    align-items:center;
+    .logo{
+        width:42px;
+        margin-right:17px;
+    }
+    .name{
+        color:white;
+        font-weight:bold;
+        line-height:1.6;
+        letter-spacing: 2px;
+        font-size:1.1rem;
+    }
 }
 .topNav {
     width:45%;
+    button{
+        // display:none;
+        color:$accent2;
+        border:none;
+        background:none;
+    }
     a{
         color:white;
         text-transform: uppercase;
@@ -41,10 +61,12 @@
         letter-spacing: 2px;
         font-size:0.8rem;
     }
+    a:hover{
+        color:$accent3;
+    }
     ul{
         display:flex;
         justify-content:space-between;
-        border:2px solid aliceblue;
     }
 }
 
