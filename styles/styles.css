@@ -147,6 +147,9 @@ a {
 img {
   width: 100%; }
 
+p {
+  margin: 0; }
+
 h1, h2, h3 {
   margin: 0; }
 
@@ -154,56 +157,78 @@ h1, h2, h3 {
   width: 80%;
   margin: 0 auto; }
 
-.topBar .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
-
 .topBar {
   background: #222533;
-  padding: 1px; }
+  padding-top: 17px; }
+  .topBar .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
 
 .heading {
   background: #3C414E;
   padding: 1px; }
+  .heading h1 {
+    font-size: 5em;
+    text-align: center;
+    color: white; }
 
 .tagline {
-  width: 40%; }
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 .logo {
-  width: 50px; }
+  width: 42px;
+  margin-right: 17px; }
 
 .name {
   color: white;
   font-weight: bold;
   line-height: 1.6;
   letter-spacing: 2px;
-  font-size: 0.8rem; }
+  font-size: 1.1rem; }
 
 .topNav {
-  width: 40%; }
+  width: 45%; }
+  .topNav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 0.8rem; }
+  .topNav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border: 2px solid aliceblue; }
 
-.topNav a {
-  color: white;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 1.6;
-  letter-spacing: 2px;
-  font-size: 0.8rem; }
+.aboutMe {
+  background: #2e3141; }
 
-.mySkills h2 {
-  text-align: center; }
+.mySkills {
+  background: #222533;
+  padding-top: 20px; }
+  .mySkills h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.8rem; }
 
 .skillsList1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
   .skillsList1 li {
     font-size: 100px; }
 
@@ -211,9 +236,25 @@ h1, h2, h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
   .skillsList2 li {
     font-size: 100px; }
+
+.devicon-html5-plain, .devicon-react-original, .devicon-visualstudio-plain {
+  color: #B1CD67; }
+
+.devicon-css3-plain,
+.devicon-sass-original {
+  color: #83D0E4; }
+
+.devicon-javascript-plain,
+.devicon-git-plain {
+  color: #EC9476; }
+
+.devicon-jquery-plain-wordmark,
+.devicon-github-plain {
+  color: #968BA2; }
 
 /*# sourceMappingURL=styles.css.map */

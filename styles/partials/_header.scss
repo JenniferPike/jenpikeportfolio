@@ -1,39 +1,51 @@
 // START OF HEADER STYLES
-.topBar .wrapper{
-    display:flex;
-    justify-content: space-between;
-}
 .topBar{
     background:$bgPrimary;
-    padding:1px;
+    padding-top:17px;
+    .wrapper{
+        display:flex;
+        justify-content: space-between;
+    }
 }
 .heading{
     background:$bgSecondary;
     padding:1px;
+    h1{
+        font-size:5em;
+        text-align:center;
+        color:white;
+    }
 }
 .tagline{
     width:40%;
+    display:flex;
 }
 .logo{
-    width:50px;
+    width:42px;
+    margin-right:17px;
 }
 .name{
     color:white;
     font-weight:bold;
     line-height:1.6;
     letter-spacing: 2px;
-    font-size:0.8rem;
+    font-size:1.1rem;
 }
-.topNav{
-    width:40%;
-}
-.topNav a{
-    color:white;
-    text-transform: uppercase;
-    font-weight:bold;
-    line-height:1.6;
-    letter-spacing: 2px;
-    font-size:0.8rem;
+.topNav {
+    width:45%;
+    a{
+        color:white;
+        text-transform: uppercase;
+        font-weight:bold;
+        line-height:1.6;
+        letter-spacing: 2px;
+        font-size:0.8rem;
+    }
+    ul{
+        display:flex;
+        justify-content:space-between;
+        border:2px solid aliceblue;
+    }
 }
 
 //END OF HEADER STYLES
