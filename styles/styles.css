@@ -282,7 +282,8 @@ h1, h2, h3 {
   min-height: 70vh; }
 
 .aboutMeTitle {
-  color: #EC9476; }
+  color: #EC9476;
+  letter-spacing: 1.7px; }
 
 .bio {
   color: white; }
@@ -309,7 +310,8 @@ h1, h2, h3 {
   .mySkills h2 {
     text-align: center;
     color: white;
-    font-size: 1.8rem; }
+    font-size: 1.8rem;
+    letter-spacing: 2px; }
 
 .skillsList1 {
   display: -webkit-box;
@@ -331,29 +333,35 @@ h1, h2, h3 {
   .skillsList2 li {
     font-size: 100px; }
 
-.devicon-html5-plain, .devicon-react-original, .devicon-visualstudio-plain {
+.skillsLists .devicon-html5-plain, .skillsLists .devicon-react-original, .skillsLists .devicon-visualstudio-plain {
   color: #B1CD67; }
 
-.devicon-css3-plain,
-.devicon-sass-original {
+.skillsLists .devicon-css3-plain,
+.skillsLists .devicon-sass-original {
   color: #83D0E4; }
 
-.devicon-javascript-plain,
-.devicon-git-plain {
+.skillsLists .devicon-javascript-plain,
+.skillsLists .devicon-git-plain {
   color: #EC9476; }
 
-.devicon-jquery-plain-wordmark,
-.devicon-github-plain {
+.skillsLists .devicon-jquery-plain-wordmark,
+.skillsLists .devicon-github-plain {
   color: #968BA2; }
 
 .projects {
   background: #3C414E;
-  color: #83D0E4;
   padding: 5% 0; }
+  .projects h2 {
+    color: #83D0E4;
+    letter-spacing: 2px; }
   .projects .projectPhoto {
-    width: 250px; }
+    width: 216px;
+    position: absolute;
+    top: 16px;
+    right: 42px; }
   .projects .laptopImage {
-    width: 300px; }
+    width: 300px;
+    position: relative; }
 
 .contact {
   background: #222533;
@@ -365,5 +373,17 @@ h1, h2, h3 {
     color: white; }
   .contact a:hover {
     color: #EC9476; }
+
+.socialMedia .devicon-twitter-plain {
+  color: #B1CD67; }
+
+.socialMedia .fa-linkedin {
+  color: #83D0E4; }
+
+.socialMedia .devicon-github-plain {
+  color: #EC9476; }
+
+.socialMedia .fa-medium {
+  color: #968BA2; }
 
 /*# sourceMappingURL=styles.css.map */

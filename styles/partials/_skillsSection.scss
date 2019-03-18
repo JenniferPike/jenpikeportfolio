@@ -5,6 +5,7 @@
         text-align: center;
         color:white;
         font-size:1.8rem;
+        letter-spacing: 2px;
     }
 }
 
@@ -23,18 +24,20 @@
         font-size:100px;
     }
 }
-.devicon-html5-plain, .devicon-react-original,.devicon-visualstudio-plain{
-    color:$accent1;
-}
-.devicon-css3-plain, 
-.devicon-sass-original{
-    color:$accent2;
-}
-.devicon-javascript-plain,
-.devicon-git-plain{
-    color:$accent3;
-}
-.devicon-jquery-plain-wordmark,
-.devicon-github-plain{
-    color:$accent4;
+.skillsLists{
+    .devicon-html5-plain, .devicon-react-original,.devicon-visualstudio-plain{
+        color:$accent1;
+    }
+    .devicon-css3-plain, 
+    .devicon-sass-original{
+        color:$accent2;
+    }
+    .devicon-javascript-plain,
+    .devicon-git-plain{
+        color:$accent3;
+    }
+    .devicon-jquery-plain-wordmark,
+    .devicon-github-plain{
+        color:$accent4;
+    }
 }
