@@ -7,7 +7,7 @@
     }
 }
 .heading{
-    background: linear-gradient(325deg, rgba(60,65,78,0.92) 10%, rgba(60,65,78,1) 55%, rgba(60,65,78,1)), url(../assets/brown3.JPG);
+    background: linear-gradient(325deg, rgba(60,65,78,0.89) 10%, rgba(60,65,78,1) 55%, rgba(60,65,78,1)), url(../assets/brown3.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center top;
@@ -65,9 +65,30 @@
         color:$accent3;
     }
     ul{
+        // display:none;
         display:flex;
         justify-content:space-between;
     }
 }
+// PHONES AND SMALLER
+@media (min-width: 320px) {
+   //probably should be max
+}
 
+@media (min-width: 480px) {
+    
+}
+
+//IPAD STYLES 
+@media (min-width: 768px) {
+    
+}
+//DESKTOP STYLES
+@media(min-width:940px){
+   
+}
+//SMALLER TO LARGER SCREENS
+@media(min-width:1080px){
+   
+}
 //END OF HEADER STYLES
