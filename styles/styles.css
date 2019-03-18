@@ -169,12 +169,12 @@ h1, h2, h3 {
     justify-content: space-between; }
 
 .heading {
-  background: -webkit-linear-gradient(125deg, rgba(60, 65, 78, 0.89) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
-  background: -o-linear-gradient(125deg, rgba(60, 65, 78, 0.89) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
-  background: linear-gradient(325deg, rgba(60, 65, 78, 0.89) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
+  background: -webkit-linear-gradient(130deg, rgba(60, 65, 78, 0.9) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
+  background: -o-linear-gradient(130deg, rgba(60, 65, 78, 0.9) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
+  background: linear-gradient(320deg, rgba(60, 65, 78, 0.9) 10%, #3c414e 55%, #3c414e), url(../assets/brown3.JPG);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center right;
   padding: 1px;
   height: calc(100vh - 65px);
   display: -webkit-box;
@@ -194,7 +194,7 @@ h1, h2, h3 {
     font-size: 1.5rem; }
   .heading .headName {
     height: 50vh;
-    margin-left: 125px; }
+    margin-left: 6%; }
 
 .tagline {
   width: 40%;
@@ -211,12 +211,13 @@ h1, h2, h3 {
     color: white;
     font-weight: bold;
     line-height: 1.6;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 1.1rem; }
 
 .topNav {
   width: 45%; }
   .topNav button {
+    display: none;
     color: #83D0E4;
     border: none;
     background: none; }
@@ -225,7 +226,7 @@ h1, h2, h3 {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1.6;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 0.8rem; }
   .topNav a:hover {
     color: #EC9476; }
@@ -236,6 +237,34 @@ h1, h2, h3 {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+
+@media (max-width: 1080px) {
+  .heading h1 {
+    font-size: 5.5rem; }
+  .topNav {
+    width: 55%; } }
+
+@media (max-width: 940px) {
+  .heading h1 {
+    font-size: 5rem; }
+  .heading h2 {
+    font-size: 1.4rem; }
+  .topNav {
+    width: 60%; } }
+
+@media (max-width: 800px) {
+  .topNav a {
+    font-size: 0.7rem; } }
+
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 4.5rem; }
+  .heading h2 {
+    font-size: 1.2rem; }
+  .tagline .name {
+    font-size: 0.9rem; }
+  .tagline .logo {
+    width: 36px; } }
 
 .aboutMe {
   background: #2e3141; }

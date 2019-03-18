@@ -7,10 +7,11 @@
     }
 }
 .heading{
-    background: linear-gradient(325deg, rgba(60,65,78,0.89) 10%, rgba(60,65,78,1) 55%, rgba(60,65,78,1)), url(../assets/brown3.JPG);
+    background: linear-gradient(320deg, rgba(60,65,78,0.90) 10%, rgba(60,65,78,1) 55%, rgba(60,65,78,1)), url(../assets/brown3.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center top;
+    background-position: center right;
+    // background-position:center top;
     padding:1px;
     height:calc(100vh - 65px);
     display:flex;
@@ -26,7 +27,7 @@
     }
     .headName{
         height:50vh;
-        margin-left:125px;
+        margin-left:6%;
     }   
 }
 .tagline{
@@ -41,14 +42,14 @@
         color:white;
         font-weight:bold;
         line-height:1.6;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
         font-size:1.1rem;
     }
 }
 .topNav {
     width:45%;
     button{
-        // display:none;
+        display:none;
         color:$accent2;
         border:none;
         background:none;
@@ -58,7 +59,7 @@
         text-transform: uppercase;
         font-weight:bold;
         line-height:1.6;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
         font-size:0.8rem;
     }
     a:hover{
@@ -70,25 +71,65 @@
         justify-content:space-between;
     }
 }
+
+
+//SMALLER TO LARGER SCREENS
+@media(max-width:1080px){
+   .heading{
+       h1{
+           font-size: 5.5rem;
+       }
+   }
+   .topNav{
+       width:55%;
+   }
+}
+//DESKTOP STYLES
+@media(max-width:940px){
+   .heading{
+       h1{
+           font-size: 5rem;
+       }
+       h2{
+            font-size: 1.4rem;
+       }
+   }
+   .topNav{
+       width:60%;
+   }
+}
+@media (max-width: 800px) {
+    .topNav{
+        a{
+            font-size:0.7rem;
+        }
+    }
+}
+//IPAD STYLES 
+@media (max-width: 768px) {
+    .heading{
+       h1{
+           font-size: 4.5rem;
+       }
+       h2{
+            font-size: 1.2rem;
+       }
+   }
+   .tagline{
+       .name{
+           font-size:0.9rem;
+        }
+        .logo{
+            width:36px;
+        }
+   }
+}
+@media (max-width: 480px) {
+    
+}
 // PHONES AND SMALLER
-@media (min-width: 320px) {
+@media (max-width: 320px) {
    //probably should be max
 }
 
-@media (min-width: 480px) {
-    
-}
-
-//IPAD STYLES 
-@media (min-width: 768px) {
-    
-}
-//DESKTOP STYLES
-@media(min-width:940px){
-   
-}
-//SMALLER TO LARGER SCREENS
-@media(min-width:1080px){
-   
-}
 //END OF HEADER STYLES
