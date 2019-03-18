@@ -1,18 +1,28 @@
 .aboutMe{
-    background: $bgThird;
+    background:linear-gradient(30deg, rgba(38,41,54,1) 52%, rgba(46,49,65,1) 52%);
+    padding:6% 0;
+    min-height:70vh;
 }
 .aboutMeTitle{
-    color:$accent3;
-    
+    color:$accent3; 
 }
-.about{
-    // display:flex;
-    // justify-content:space-between;
-    .headshot{
-        width:30%;
+.bio{
+    color:white;
+}
+.info{
+    width:65%;
+    padding-left:79px;
+    p{
+        padding:16px 0px;
+        line-height:1.6;
+        letter-spacing: 2px;
+        font-size:1rem;
     }
-    .bio{
-        color:white;
-        width:60%;
+}
+
+.about{
+    display:flex;
+    .headshot{
+        width:35%;
     }
 }

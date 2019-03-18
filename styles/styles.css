@@ -135,6 +135,9 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 html {
   font-size: 125%; }
 
+body {
+  font-family: "Lato", sans-serif; }
+
 ul {
   padding: 20px 0;
   margin: 0; }
@@ -170,9 +173,9 @@ h1, h2, h3 {
     justify-content: space-between; }
 
 .heading {
-  background: -webkit-linear-gradient(325deg, #3c414e 52%, rgba(60, 65, 78, 0.9) 52%), url(../assets/me.jpg);
-  background: -o-linear-gradient(325deg, #3c414e 52%, rgba(60, 65, 78, 0.9) 52%), url(../assets/me.jpg);
-  background: linear-gradient(125deg, #3c414e 52%, rgba(60, 65, 78, 0.9) 52%), url(../assets/me.jpg);
+  background: -webkit-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/meB.jpg);
+  background: -o-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/meB.jpg);
+  background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/meB.jpg);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,10 +192,14 @@ h1, h2, h3 {
   align-items: center; }
   .heading h1 {
     font-size: 6rem;
-    color: white; }
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-weight: 900; }
   .heading h2 {
     color: #B1CD67;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.6px; }
   .heading .headName {
     height: 50vh;
     margin-left: 6%; }
@@ -268,21 +275,37 @@ h1, h2, h3 {
     width: 36px; } }
 
 .aboutMe {
-  background: #2e3141; }
+  background: -webkit-linear-gradient(60deg, #262936 52%, #2e3141 52%);
+  background: -o-linear-gradient(60deg, #262936 52%, #2e3141 52%);
+  background: linear-gradient(30deg, #262936 52%, #2e3141 52%);
+  padding: 6% 0;
+  min-height: 70vh; }
 
 .aboutMeTitle {
   color: #EC9476; }
 
-.about .headshot {
-  width: 30%; }
+.bio {
+  color: white; }
 
-.about .bio {
-  color: white;
-  width: 60%; }
+.info {
+  width: 65%;
+  padding-left: 79px; }
+  .info p {
+    padding: 16px 0px;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    font-size: 1rem; }
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .about .headshot {
+    width: 35%; }
 
 .mySkills {
   background: #222533;
-  padding-top: 20px; }
+  padding: 5% 0; }
   .mySkills h2 {
     text-align: center;
     color: white;
@@ -326,7 +349,7 @@ h1, h2, h3 {
 .projects {
   background: #3C414E;
   color: #83D0E4;
-  padding-top: 30px; }
+  padding: 5% 0; }
   .projects .projectPhoto {
     width: 250px; }
   .projects .laptopImage {
@@ -335,7 +358,7 @@ h1, h2, h3 {
 .contact {
   background: #222533;
   color: white;
-  padding-top: 30px; }
+  padding: 5% 0; }
   .contact h2 {
     color: #968BA2; }
   .contact a {

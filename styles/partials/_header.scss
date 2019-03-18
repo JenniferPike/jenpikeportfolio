@@ -7,8 +7,8 @@
     }
 }
 .heading{
-    // background:linear-gradient(150deg, rgba(60,65,78,1) 47%, rgba(60,65,78,0.9) 47%), url(../assets/meB.jpg);
-    background:linear-gradient(125deg, rgba(60,65,78,1) 52%, rgba(60,65,78,0.9) 52%), url(../assets/me.jpg);
+    background:linear-gradient(148deg, rgba(60,65,78,1) 44%, rgba(60,65,78,0.85) 44%), url(../assets/meB.jpg);
+    // background:linear-gradient(125deg, rgba(60,65,78,1) 52%, rgba(60,65,78,0.9) 52%), url(../assets/me.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,10 +20,14 @@
     h1{
         font-size:6rem;
         color:white;
+        font-family:$secondaryFont;
+        font-weight:900;
     }
     h2{
         color:$accent1;
         font-size:1.5rem;
+        font-weight: 700;
+        letter-spacing: 1.6px;
     }
     .headName{
         height:50vh;

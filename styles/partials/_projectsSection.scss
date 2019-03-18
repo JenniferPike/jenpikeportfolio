@@ -1,7 +1,8 @@
 .projects{
     background:$bgSecondary;
+    // background:linear-gradient(345deg, rgba(50,54,64,1) 52%, rgba(60,65,78,1) 52%);
     color:$accent2;
-    padding-top:30px;
+    padding:5% 0;
     .projectPhoto{
         width:250px;
     }
