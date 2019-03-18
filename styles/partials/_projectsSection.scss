@@ -1,3 +1,11 @@
 .projects{
-
+    background:$bgSecondary;
+    color:$accent2;
+    padding-top:30px;
+    .projectPhoto{
+        width:250px;
+    }
+    .laptopImage{
+        width:300px;
+    }
 }

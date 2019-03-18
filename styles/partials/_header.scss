@@ -7,11 +7,11 @@
     }
 }
 .heading{
-    background: linear-gradient(320deg, rgba(60,65,78,0.90) 10%, rgba(60,65,78,1) 55%, rgba(60,65,78,1)), url(../assets/brown3.JPG);
+    // background:linear-gradient(150deg, rgba(60,65,78,1) 47%, rgba(60,65,78,0.9) 47%), url(../assets/meB.jpg);
+    background:linear-gradient(125deg, rgba(60,65,78,1) 52%, rgba(60,65,78,0.9) 52%), url(../assets/me.jpg);
+    background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center right;
-    // background-position:center top;
     padding:1px;
     height:calc(100vh - 65px);
     display:flex;
