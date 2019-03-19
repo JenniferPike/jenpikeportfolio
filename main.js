@@ -7,6 +7,8 @@ $(function () {
         $('.showNav').toggleClass('show');
     });
 
+
+    //this is what I have for my attempts at making this thing work
     const projects = [
         {
             projectNumber: "project1",
@@ -58,7 +60,7 @@ $(function () {
     const gitHubLink = ${gitHubLink};
      
     $('.right').on('click', function(){
-        $('.project1').attr()
+        
     })
 
     $('.left').on('click', function(){
