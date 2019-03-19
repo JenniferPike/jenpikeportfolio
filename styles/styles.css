@@ -541,6 +541,9 @@ h1, h2, h3 {
     border: 2px solid #B1CD67; }
   .projectInfo a:hover {
     color: #83D0E4; }
+  .projectInfo h2 {
+    color: #B1CD67;
+    padding-bottom: 5px; }
 
 .left,
 .right {
