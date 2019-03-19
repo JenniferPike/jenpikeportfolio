@@ -7,8 +7,8 @@
     }
 }
 .heading{
-    background:linear-gradient(148deg, rgba(60,65,78,1) 44%, rgba(60,65,78,0.85) 44%), url(../assets/meB.jpg);
-    // background:linear-gradient(125deg, rgba(60,65,78,1) 52%, rgba(60,65,78,0.9) 52%), url(../assets/me.jpg);
+    // background:linear-gradient(148deg, rgba(60,65,78,1) 44%, rgba(60,65,78,0.85) 44%), url(../assets/meB.jpg);
+    background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/meB.jpg);
     background-position: bottom right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,7 +168,7 @@
         }
     }
     .heading{
-        background:linear-gradient(148deg, rgba(60,65,78,1) 44%, rgba(60,65,78,0.85) 44%), url(../assets/mobile.jpg);
+        background:linear-gradient(148deg, rgba(60,65,78,1) 44%, rgba(60,65,78,0.8) 44%), url(../assets/mobile.jpg);
         background-position: center bottom;
         background-size:cover;
         background-repeat: no-repeat;

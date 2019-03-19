@@ -173,9 +173,9 @@ h1, h2, h3 {
     justify-content: space-between; }
 
 .heading {
-  background: -webkit-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/meB.jpg);
-  background: -o-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/meB.jpg);
-  background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/meB.jpg);
+  background: -webkit-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/meB.jpg);
+  background: -o-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/meB.jpg);
+  background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/meB.jpg);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -308,9 +308,9 @@ h1, h2, h3 {
   .tagline .name {
     line-height: 1.2; }
   .heading {
-    background: -webkit-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/mobile.jpg);
-    background: -o-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/mobile.jpg);
-    background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.85) 44%), url(../assets/mobile.jpg);
+    background: -webkit-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/mobile.jpg);
+    background: -o-linear-gradient(302deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/mobile.jpg);
+    background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.8) 44%), url(../assets/mobile.jpg);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat; }
