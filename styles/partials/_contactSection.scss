@@ -4,10 +4,10 @@
     padding:5% 0;
     h2{
         color:$accent4;
+        font-size: 1.8rem;
         letter-spacing: 2px;
         text-align: center;
         padding-bottom: 4%;
-        font-size: 1.8rem;
     }
     a{
         color:white;
@@ -57,5 +57,74 @@
     }
     i:hover{
         color:white;
+    }
+}
+
+
+@media(max-width:670px){
+    .contactInfo{
+        li{
+            font-size:1rem;
+            line-height:1.5;
+            letter-spacing: 2px;
+        }
+    }
+    .socialMedia{
+        i{
+            font-size:25px;
+        }
+    }
+}
+@media(max-width:530px){
+    .contact{
+        h2{
+            font-size: 1.6rem;
+            letter-spacing: 2px;
+        }
+    }
+    .contactMe{
+        flex-direction: column;
+    }
+    .contactInfo{
+        padding-bottom:10px;
+        width:100%;
+        li{
+            font-size:1.2rem;
+            line-height:1.5;
+            letter-spacing: 2px;
+        }
+    }
+    .socialMedia{
+        width:100%;
+        i{
+            font-size:30px;
+        }
+    }
+}
+@media (max-width: 480px) {
+
+}
+@media(max-width:400px){
+    
+}
+// PHONES AND SMALLER
+@media (max-width: 320px) {
+    .contact{
+        h2{
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+        }
+    }
+    .contactInfo{
+        li{
+            font-size:1rem;
+            line-height:1.4;
+            letter-spacing: 2px;
+        }
+    }
+    .socialMedia{
+        i{
+            font-size:25px;
+        }
     }
 }

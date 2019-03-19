@@ -41,3 +41,62 @@
         color:$accent4;
     }
 }
+
+//DESKTOP STYLES
+@media(max-width:940px){
+    .skillsList1{
+        li{
+            font-size:80px;
+        }
+    }
+    .skillsList2{
+        li{
+            font-size:80px;
+        }
+    }
+}
+//IPAD STYLES 
+@media (max-width: 768px) {
+    .skillsList1{
+        li{
+            font-size:70px;
+        }
+    }
+    .skillsList2{
+        li{
+            font-size:70px;
+        }
+    }
+}
+@media(max-width:600px){
+    .skillsList1{
+        justify-content:space-around;
+        flex-wrap:wrap;
+        li{
+            font-size:60px;
+        }
+    }
+    .skillsList2{
+        justify-content:space-around;
+        flex-wrap:wrap;
+        li{
+            font-size:60px;
+        }
+    }
+
+}
+@media(max-width:530px){
+    .skillsLists{
+        display:flex;
+        justify-content:space-evenly;
+    }
+    .skillsList1{
+        width:20%;
+        flex-direction: column;
+    }
+    .skillsList2{
+        width:20%;
+        flex-direction: column;
+    }
+    
+}

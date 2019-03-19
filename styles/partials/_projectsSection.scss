@@ -34,10 +34,51 @@
     }
 }
 .projectInfo{
-        width:40%;
+        width:30%;
         color:white;
         .skillUsed{
             color:$accent3;
             padding-top: 34px;
         }
+}
+.left,
+.right {
+    color:$accent1;
+    background: none;
+    border: none;
+    font-size: 51px;
+    padding: 0 22px;
+}
+.left:hover, .right:hover{
+    color:$accent4;
+}
+
+
+//SMALLER TO LARGER SCREENS
+@media(max-width:1080px){
+ 
+}
+//DESKTOP STYLES
+@media(max-width:940px){
+
+}
+//IPAD STYLES 
+@media (max-width: 768px) {
+
+}
+@media(max-width:600px){
+
+}
+@media(max-width:530px){
+    
+}
+@media (max-width: 480px) {
+
+}
+@media(max-width:400px){
+    
+}
+// PHONES AND SMALLER
+@media (max-width: 320px) {
+
 }
