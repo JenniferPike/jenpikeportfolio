@@ -25,7 +25,7 @@
     display:none;
 }
 .projectLaptop{
-    width:50%;
+    width:45%;
     .projectPhoto{
         width: 319px;
         position: absolute;
@@ -38,7 +38,7 @@
     }
 }
 .projectInfo{
-    width:50%;
+    width:45%;
     color:white;
     .skillUsed{
         color:$accent3;
@@ -49,7 +49,8 @@
         padding:15px 15px;
         margin-right:10px;
         background:$bgThird;
-        color:$accent4;
+        color:white;
+        letter-spacing: 2px;
         border:2px solid $accent1;
     }
     a:hover{
@@ -57,6 +58,7 @@
     }
         
 }
+
 .left,
 .right {
     color:$accent1;
@@ -72,19 +74,19 @@
 
 
 //SMALLER TO LARGER SCREENS
-@media(max-width:1080px){
+@media(max-width:1130px){
     .projectLaptop {
         .projectPhoto{
-            width:282px;
-            top:23px;
-            right:60px;
+            width:271px;
+            top:21px;
+            right:55px;
         }
-    }
-    .projectLaptop {
         .laptopImage{
-            width:450px;
-            width:400px;
-        }
+          width:380px;
+        }   
+    }
+    .projectInfo{
+        margin-left: 30px;
     }
     .left, .right{
         font-size: 40px;
@@ -113,10 +115,10 @@
         align-items:center;
     }
     .left{
-        padding-bottom:10px;
+        padding-bottom:20px;
     }
     .right{
-        padding-top:10px;
+        padding-top:40px;
     }
 }
 @media(max-width:621px){
@@ -139,4 +141,14 @@
             right: 42px;
         }
     }
+}
+@media(max-width:333px){
+    .links {
+        display: flex;
+        flex-direction: column;
+        .liveLink {
+            margin-bottom: 17px;
+        }
+    }
+    
 }
