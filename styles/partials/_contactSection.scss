@@ -4,6 +4,10 @@
     padding:5% 0;
     h2{
         color:$accent4;
+        letter-spacing: 2px;
+        text-align: center;
+        padding-bottom: 4%;
+        font-size: 1.8rem;
     }
     a{
         color:white;
@@ -12,10 +16,31 @@
         color:$accent3;
     }
 }
-
+.contactMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactInfo{
+    width:40%;
+    display:flex;
+    justify-content: center;
+    li{
+        font-size:1.3rem;
+        line-height:1.6;
+        letter-spacing: 2.4px;
+        border-bottom:2px solid $accent3;
+    }
+}
 .socialMedia{
+    width:40%;
+    nav{
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
     .devicon-twitter-plain{
-        color:$accent1;
+        color:$accent1; 
     }
     .fa-linkedin{
         color:$accent2;
@@ -25,5 +50,12 @@
     }
     .fa-medium{
         color:$accent4;
+    }
+    i{
+        font-size:30px;
+        
+    }
+    i:hover{
+        color:white;
     }
 }

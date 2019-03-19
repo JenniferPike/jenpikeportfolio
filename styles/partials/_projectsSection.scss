@@ -2,19 +2,42 @@
     background:$bgSecondary;
     // background:linear-gradient(345deg, rgba(50,54,64,1) 52%, rgba(60,65,78,1) 52%);
     padding:5% 0;
+}
+.projectsTitle{
     h2{
         color:$accent2;
         letter-spacing: 2px;
+        text-align: center;
+        padding-bottom: 4%;
+        font-size: 1.8rem;
     }
-    
+}
+.project1,
+.project2,
+.project3,
+.project4,
+.project5{
+    display:flex;
+    justify-content: center;
+}
+.projectLaptop{
+    width:40%;
     .projectPhoto{
-        width:216px;
+        width: 319px;
         position: absolute;
-        top: 16px;
-        right: 42px;
+        top: 26px;
+        right: 66px;
     }
     .laptopImage{
-        width:300px;
+        width:450px;
         position: relative;
     }
+}
+.projectInfo{
+        width:40%;
+        color:white;
+        .skillUsed{
+            color:$accent3;
+            padding-top: 34px;
+        }
 }

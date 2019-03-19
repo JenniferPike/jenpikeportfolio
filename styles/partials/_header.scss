@@ -30,7 +30,7 @@
         letter-spacing: 1.6px;
     }
     .headName{
-        height:50vh;
+        height:60vh;
         margin-left:6%;
     }   
 }
@@ -70,18 +70,25 @@
         color:$accent3;
     }
     ul{
-        // display:none;
         display:flex;
         justify-content:space-between;
     }
 }
-
-
+.show.showNav {
+    display: block;
+}
+.hamburger,
+.exitResponsive {
+	display: none;
+}
 //SMALLER TO LARGER SCREENS
 @media(max-width:1080px){
    .heading{
        h1{
-           font-size: 5.5rem;
+           font-size: 5.2rem;
+       }
+       h2{
+           font-size:1.3rem;
        }
    }
    .topNav{
@@ -128,8 +135,60 @@
         }
    }
 }
+@media(max-width:670px){
+    .heading{
+       h1{
+           font-size: 4.2rem;
+       }
+       h2{
+            font-size: 1.1rem;
+       }
+   }
+    .topNav{
+        display:flex;
+        justify-content: flex-end;
+        width: 30%;
+        button{
+            display:block;
+            padding:20px;
+        }
+        ul{
+            display:none;
+        }
+
+    }
+    .tagline {
+        width: 60%;
+    }
+}
 @media (max-width: 480px) {
-    
+    .tagline{
+        .name{
+            line-height: 1.2;
+        }
+    }
+    .heading{
+        background:linear-gradient(148deg, rgba(60,65,78,1) 44%, rgba(60,65,78,0.85) 44%), url(../assets/mobile.jpg);
+        background-position: center bottom;
+        background-size:cover;
+        background-repeat: no-repeat;
+        h1{
+           font-size: 3.5rem;
+        }
+        h2{
+            font-size: 0.9rem;
+        }    
+   }
+}
+@media(max-width:370px){
+    .heading{
+       h1{
+           font-size: 3rem;
+       }
+       h2{
+            font-size: 0.8rem;
+       }
+   }
 }
 // PHONES AND SMALLER
 @media (max-width: 320px) {

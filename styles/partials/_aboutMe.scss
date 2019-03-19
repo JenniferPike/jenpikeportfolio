@@ -1,11 +1,12 @@
 .aboutMe{
     background:linear-gradient(30deg, rgba(38,41,54,1) 52%, rgba(46,49,65,1) 52%);
-    padding:6% 0;
+    padding:5% 0;
     min-height:70vh;
 }
 .aboutMeTitle{
     color:$accent3; 
     letter-spacing: 1.7px;
+    font-size: 1.2rem;
 
 }
 .bio{
@@ -27,4 +28,15 @@
     .headshot{
         width:35%;
     }
+}
+.left,
+.right {
+    color:$accent1;
+    background: none;
+    border: none;
+    font-size: 51px;
+    padding: 0 22px;
+}
+.left:hover, .right:hover{
+    color:$accent4;
 }
