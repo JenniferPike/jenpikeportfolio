@@ -1,4 +1,5 @@
 $(function () {
+    // code to hide and show my hamburger menu
     $('.hamburger').on('click', function () {
         $('.showNav').toggleClass('show');
     });
@@ -8,6 +9,8 @@ $(function () {
     });
 
 
+
+    // Code to switch between projects in my project gallery section
     $('.right').on('click', function(){
         const $next = $('.projectExample .active').next();
 

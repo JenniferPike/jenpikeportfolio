@@ -486,6 +486,9 @@ h1, h2, h3 {
 
 .projects {
   background: #3C414E;
+  background: -webkit-linear-gradient(105deg, #323640 52%, #3c414e 52%);
+  background: -o-linear-gradient(105deg, #323640 52%, #3c414e 52%);
+  background: linear-gradient(345deg, #323640 52%, #3c414e 52%);
   padding: 5% 0; }
 
 .projectsTitle h2 {
