@@ -507,8 +507,14 @@ h1, h2, h3 {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.project2,
+.project3,
+.project4,
+.project5 {
+  display: none; }
+
 .projectLaptop {
-  width: 40%; }
+  width: 50%; }
   .projectLaptop .projectPhoto {
     width: 319px;
     position: absolute;
@@ -519,11 +525,20 @@ h1, h2, h3 {
     position: relative; }
 
 .projectInfo {
-  width: 30%;
+  width: 50%;
   color: white; }
   .projectInfo .skillUsed {
     color: #EC9476;
-    padding-top: 34px; }
+    padding-top: 34px;
+    padding-bottom: 30px; }
+  .projectInfo a {
+    padding: 15px 15px;
+    margin-right: 10px;
+    background: #2e3141;
+    color: #968BA2;
+    border: 2px solid #B1CD67; }
+  .projectInfo a:hover {
+    color: #83D0E4; }
 
 .left,
 .right {
@@ -531,10 +546,77 @@ h1, h2, h3 {
   background: none;
   border: none;
   font-size: 51px;
-  padding: 0 22px; }
+  padding-right: 5px;
+  padding-left: 5px; }
 
 .left:hover, .right:hover {
   color: #968BA2; }
+
+@media (max-width: 1080px) {
+  .projectLaptop .projectPhoto {
+    width: 282px;
+    top: 23px;
+    right: 60px; }
+  .projectLaptop .laptopImage {
+    width: 450px;
+    width: 400px; }
+  .left, .right {
+    font-size: 40px; } }
+
+@media (max-width: 940px) {
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .projectLaptop {
+    width: 80%;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .projectInfo {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .left {
+    padding-bottom: 10px; }
+  .right {
+    padding-top: 10px; } }
+
+@media (max-width: 621px) {
+  .projectLaptop {
+    width: 348px; }
+    .projectLaptop .projectPhoto {
+      width: 251px;
+      top: 19px;
+      right: 48px; } }
+
+@media (max-width: 400px) {
+  .projectLaptop {
+    width: 300px; }
+    .projectLaptop .projectPhoto {
+      width: 217px;
+      top: 16px;
+      right: 42px; } }
 
 .contact {
   background: #222533;
