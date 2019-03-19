@@ -15,6 +15,8 @@ $(function () {
         const $next = $('.projectExample .active').next();
 
         if ($next.length === 0) {
+            $('.projectExample .active').removeClass('active').addClass('hidden');
+            $('.projectExample .project1').removeClass('hidden').addClass('active');
             return; //do nothing
         }
         $('.projectExample .active').removeClass('active').addClass('hidden').next().removeClass('hidden').addClass('active');
@@ -24,6 +26,8 @@ $(function () {
         const $prev = $('.projectExample .active').prev();
 
         if ($prev.length === 0) {
+            $('.projectExample .active').removeClass('active').addClass('hidden');
+            $('.projectExample .project5').removeClass('hidden').addClass('active');
             return; //do nothing
         }
         $('.projectExample .active').removeClass('active').addClass('hidden').prev().removeClass('hidden').addClass('active');
