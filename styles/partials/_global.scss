@@ -4,6 +4,7 @@ html{
 }
 body{
     font-family:$primaryFont;
+    overscroll-behavior: none;
 }
 ul{
     padding:20px 0;
