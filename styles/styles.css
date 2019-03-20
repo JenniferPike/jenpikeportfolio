@@ -138,7 +138,8 @@ html {
 body {
   font-family: "Lato", sans-serif;
   -ms-scroll-chaining: none;
-  overscroll-behavior: none; }
+  overscroll-behavior: none;
+  background: black; }
 
 ul {
   padding: 20px 0;
@@ -426,6 +427,9 @@ h1, h2, h3 {
     font-size: 1.8rem;
     letter-spacing: 2px; }
 
+.mobile {
+  display: none; }
+
 .skillsList1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -474,6 +478,10 @@ h1, h2, h3 {
     font-size: 70px; } }
 
 @media (max-width: 600px) {
+  .mobile {
+    display: block; }
+  .desktop {
+    display: none; }
   .skillsList1 {
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -487,28 +495,15 @@ h1, h2, h3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .skillsList2 li {
-      font-size: 60px; } }
-
-@media (max-width: 530px) {
-  .skillsLists {
+      font-size: 60px; }
+  .skillsList3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
-  .skillsList1 {
-    width: 20%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; }
-  .skillsList2 {
-    width: 20%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column; } }
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .skillsList3 li {
+      font-size: 60px; } }
 
 .projects {
   background: #3C414E;
