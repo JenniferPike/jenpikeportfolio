@@ -4,7 +4,7 @@ $(function () {
         $('.showNav').toggleClass('show');
     });
 
-    $('.exitResponsive').on('click', function () {
+    $('.exitResponsive').on('click', function() {
         $('.showNav').toggleClass('show');
     });
 

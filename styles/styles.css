@@ -323,7 +323,11 @@ h1, h2, h3 {
   .heading h1 {
     font-size: 3rem; }
   .heading h2 {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .heading .headName {
+    height: 68vh; }
+  .topBar .wrapper {
+    width: 95%; } }
 
 .aboutMe {
   background: -webkit-linear-gradient(60deg, #262936 52%, #2e3141 52%);
@@ -668,9 +672,13 @@ h1, h2, h3 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .contactMe .fa-phone,
+  .contactMe .fa-envelope,
+  .contactMe .fa-user {
+    padding-right: 15px; }
 
 .contactInfo {
-  width: 40%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -710,9 +718,9 @@ h1, h2, h3 {
 
 @media (max-width: 670px) {
   .contactInfo li {
-    font-size: 1rem;
-    line-height: 1.5;
-    letter-spacing: 2px; }
+    font-size: 1.2rem;
+    line-height: 2;
+    letter-spacing: 2.5px; }
   .socialMedia i {
     font-size: 25px; } }
 
