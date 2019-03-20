@@ -335,6 +335,8 @@ h1, h2, h3 {
   background: linear-gradient(30deg, #262936 52%, #2e3141 52%);
   padding: 5% 0;
   min-height: 70vh; }
+  .aboutMe .wrapper {
+    width: 90%; }
 
 .aboutMeTitle {
   color: #EC9476;
@@ -346,7 +348,7 @@ h1, h2, h3 {
 
 .info {
   width: 65%;
-  padding-left: 79px; }
+  padding-left: 51px; }
   .info p {
     padding: 10px 0px;
     line-height: 1.5;
@@ -375,25 +377,39 @@ h1, h2, h3 {
       width: 100%;
       padding-left: 0; } }
 
+@media (max-width: 940px) {
+  .about .headshot {
+    width: 46%; } }
+
 @media (max-width: 768px) {
   .aboutMeTitle {
     letter-spacing: 1.5px;
     font-size: 1rem; }
   .info p {
     line-height: 1.3;
-    letter-spacing: 1.8px; } }
+    letter-spacing: 1.8px; }
+  .about .headshot {
+    width: 50%; } }
 
 @media (max-width: 560px) {
   .info p {
-    font-size: 0.8rem; } }
+    font-size: 0.8rem; }
+  .about .headshot {
+    width: 65%; } }
 
 @media (max-width: 480px) {
   .aboutMeTitle {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+  .about .headshot {
+    width: 75%; } }
 
 @media (max-width: 400px) {
   .info p {
     font-size: 0.7rem; } }
+
+@media (max-width: 400px) {
+  .about .headshot {
+    width: 100%; } }
 
 .mySkills {
   background: #222533;
