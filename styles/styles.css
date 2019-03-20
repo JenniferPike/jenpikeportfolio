@@ -335,8 +335,6 @@ h1, h2, h3 {
   background: linear-gradient(30deg, #262936 52%, #2e3141 52%);
   padding: 5% 0;
   min-height: 70vh; }
-  .aboutMe .wrapper {
-    width: 90%; }
 
 .aboutMeTitle {
   color: #EC9476;
@@ -360,7 +358,8 @@ h1, h2, h3 {
   display: -ms-flexbox;
   display: flex; }
   .about .headshot {
-    width: 35%; }
+    width: 35%;
+    padding-top: 9px; }
 
 @media (max-width: 1080px) {
   .about {
@@ -378,8 +377,12 @@ h1, h2, h3 {
       padding-left: 0; } }
 
 @media (max-width: 940px) {
+  .showMore {
+    display: block; }
   .about .headshot {
-    width: 46%; } }
+    width: 46%; }
+  .hideMobile {
+    display: none; } }
 
 @media (max-width: 768px) {
   .aboutMeTitle {
@@ -405,7 +408,8 @@ h1, h2, h3 {
 
 @media (max-width: 400px) {
   .info p {
-    font-size: 0.7rem; } }
+    font-size: 0.8rem;
+    letter-spacing: 2.6px; } }
 
 @media (max-width: 400px) {
   .about .headshot {
@@ -661,7 +665,8 @@ h1, h2, h3 {
     -ms-flex-direction: column;
     flex-direction: column; }
     .links .liveLink {
-      margin-bottom: 17px; } }
+      margin-bottom: 17px;
+      text-align: center; } }
 
 .contact {
   background: #222533;

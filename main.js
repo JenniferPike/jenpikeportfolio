@@ -8,8 +8,6 @@ $(function () {
         $('.showNav').toggleClass('show');
     });
 
-
-
     // Code to switch between projects in my project gallery section
     $('.right').on('click', function(){
         const $next = $('.projectExample .active').next();
