@@ -16,7 +16,6 @@
 .project2,
 .project3,
 .project4,
-.project5,
 .active{
     display:flex;
     justify-content: center;
@@ -108,8 +107,7 @@
     .project1,
     .project2,
     .project3,
-    .project4,
-    .project5{
+    .project4{
         flex-direction: column;
         align-items: center;
     }
