@@ -25,7 +25,7 @@ $(function () {
 
         if ($prev.length === 0) {
             $('.projectExample .active').removeClass('active').addClass('hidden');
-            $('.projectExample .project5').removeClass('hidden').addClass('active');
+            $('.projectExample .project4').removeClass('hidden').addClass('active');
             return; //do nothing
         }
         $('.projectExample .active').removeClass('active').addClass('hidden').prev().removeClass('hidden').addClass('active');
