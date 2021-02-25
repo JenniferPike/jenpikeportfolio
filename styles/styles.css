@@ -682,6 +682,10 @@ h1, h2, h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -709,10 +713,9 @@ h1, h2, h3 {
     font-size: 1.3rem;
     line-height: 1.6;
     letter-spacing: 2.4px;
-    border-bottom: 2px solid #EC9476; }
+    text-align: center; }
 
 .contactForm {
-  margin-top: 40px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -728,15 +731,16 @@ h1, h2, h3 {
     color: white;
     border: none;
     width: 100%;
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   .contactForm .textInput {
-    border-bottom: 3px solid #B1CD67; }
+    border-bottom: 2px solid #B1CD67; }
   .contactForm .emailInput {
-    border-bottom: 3px solid #83D0E4; }
+    border-bottom: 2px solid #83D0E4; }
   .contactForm .messageInput {
-    border-bottom: 3px solid #EC9476; }
+    border-bottom: 2px solid #EC9476; }
   .contactForm .submitInput {
-    border: 3px solid #968BA2; }
+    border: 2px solid #968BA2;
+    color: #92949b; }
 
 .socialMedia {
   width: 40%; }

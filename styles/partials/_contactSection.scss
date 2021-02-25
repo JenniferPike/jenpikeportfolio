@@ -18,6 +18,7 @@
 }
 .contactMe {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   .fa-phone,
@@ -35,11 +36,12 @@
     font-size: 1.3rem;
     line-height: 1.6;
     letter-spacing: 2.4px;
-    border-bottom: 2px solid $accent3;
+    text-align: center;
+    // border-bottom: 2px solid $accent3;
   }
 }
 .contactForm {
-  margin-top: 40px;
+  // margin-top: 40px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -53,19 +55,20 @@
     color: white;
     border: none;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .textInput {
-    border-bottom: 3px solid $accent1;
+    border-bottom: 2px solid $accent1;
   }
   .emailInput {
-    border-bottom: 3px solid $accent2;
+    border-bottom: 2px solid $accent2;
   }
   .messageInput {
-    border-bottom: 3px solid $accent3;
+    border-bottom: 2px solid $accent3;
   }
   .submitInput {
-    border: 3px solid $accent4;
+    border: 2px solid $accent4;
+    color: #92949b;
   }
 }
 .socialMedia {
