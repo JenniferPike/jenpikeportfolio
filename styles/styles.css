@@ -523,7 +523,6 @@ h1, h2, h3 {
 .project2,
 .project3,
 .project4,
-.project5,
 .active {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -600,8 +599,7 @@ h1, h2, h3 {
   .project1,
   .project2,
   .project3,
-  .project4,
-  .project5 {
+  .project4 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -674,7 +672,7 @@ h1, h2, h3 {
     font-size: 1.8rem;
     letter-spacing: 2px;
     text-align: center;
-    padding-bottom: 4%; }
+    padding-bottom: 3%; }
   .contact a {
     color: white; }
   .contact a:hover {
@@ -684,6 +682,10 @@ h1, h2, h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -702,12 +704,43 @@ h1, h2, h3 {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
   .contactInfo li {
     font-size: 1.3rem;
     line-height: 1.6;
     letter-spacing: 2.4px;
+    text-align: center; }
+
+.contactForm {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .contactForm form {
+    width: 50%; }
+  .contactForm .contactInputs {
+    outline: none;
+    background-color: #222533;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px; }
+  .contactForm .textInput {
+    border-bottom: 2px solid #B1CD67; }
+  .contactForm .emailInput {
+    border-bottom: 2px solid #83D0E4; }
+  .contactForm .messageInput {
     border-bottom: 2px solid #EC9476; }
+  .contactForm .submitInput {
+    border: 2px solid #968BA2;
+    color: #92949b; }
 
 .socialMedia {
   width: 40%; }
