@@ -574,7 +574,8 @@ h1, h2, h3 {
   padding-right: 5px;
   padding-left: 5px; }
 
-.left:hover, .right:hover {
+.left:hover,
+.right:hover {
   color: #968BA2; }
 
 .desktopArrow {
@@ -592,10 +593,13 @@ h1, h2, h3 {
     width: 380px; }
   .projectInfo {
     margin-left: 30px; }
-  .left, .right {
+  .left,
+  .right {
     font-size: 40px; } }
 
 @media (max-width: 940px) {
+  .projectExample {
+    margin-bottom: 20px; }
   .project1,
   .project2,
   .project3,
@@ -767,11 +771,17 @@ h1, h2, h3 {
   .socialMedia i:hover {
     color: white; }
 
+@media (max-width: 950px) {
+  .contactForm form {
+    width: 80%; } }
+
 @media (max-width: 670px) {
-  .contactInfo li {
-    font-size: 1.2rem;
-    line-height: 2;
-    letter-spacing: 2.5px; }
+  .contactInfo {
+    width: 60%; }
+    .contactInfo li {
+      font-size: 1.2rem;
+      line-height: 2;
+      letter-spacing: 2.5px; }
   .socialMedia i {
     font-size: 25px; } }
 
@@ -794,7 +804,9 @@ h1, h2, h3 {
   .socialMedia {
     width: 100%; }
     .socialMedia i {
-      font-size: 30px; } }
+      font-size: 30px; }
+  .contactForm form {
+    width: 100%; } }
 
 @media (max-width: 320px) {
   .contact h2 {
