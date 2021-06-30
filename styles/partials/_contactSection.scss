@@ -97,9 +97,16 @@
     color: white;
   }
 }
-
+@media (max-width: 950px) {
+  .contactForm {
+    form {
+      width: 80%;
+    }
+  }
+}
 @media (max-width: 670px) {
   .contactInfo {
+    width: 60%;
     li {
       font-size: 1.2rem;
       line-height: 2;
@@ -135,6 +142,11 @@
     width: 100%;
     i {
       font-size: 30px;
+    }
+  }
+  .contactForm {
+    form {
+      width: 100%;
     }
   }
 }
