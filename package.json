@@ -22,6 +22,8 @@
   },
   "dependencies": {},
   "description": "",
-  "includePaths": ["node_modules"],
+  "includePaths": [
+    "node_modules"
+  ],
   "outputStyle": "nested"
 }
