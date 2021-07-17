@@ -1,101 +1,143 @@
-.mySkills{
-    background:$bgPrimary;
-    padding:5% 0;
-    h2{
-        text-align: center;
-        color:white;
-        font-size:1.8rem;
-        letter-spacing: 2px;
-    }
+.mySkills {
+  background: $bgPrimary;
+  padding: 45px 0;
+  h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+  }
 }
-.mobile{
-    display:none;
+.mobile {
+  display: none;
 }
-.skillsList1{
-    display:flex;
-    justify-content: space-between;
-    li{
-        font-size:100px;
-    }
+.skillsList1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  li {
+    font-size: 65px;
+  }
 }
-.skillsList2{
-    display:flex;
-    justify-content:space-evenly;
-    
-    li{
-        font-size:100px;
-    }
+.skillsList2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px;
+  li {
+    font-size: 65px;
+  }
 }
-.skillsLists{
-    .devicon-html5-plain, .devicon-react-original,.devicon-visualstudio-plain{
-        color:$accent1;
-    }
-    .devicon-css3-plain, 
-    .devicon-sass-original{
-        color:$accent2;
-    }
-    .devicon-javascript-plain,
-    .devicon-git-plain{
-        color:$accent3;
-    }
-    .devicon-jquery-plain-wordmark,
-    .devicon-github-plain{
-        color:$accent4;
-    }
+.skillsList3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  li {
+    font-size: 65px;
+  }
+}
+.skillsLists {
+  .devicon-html5-plain,
+  .devicon-react-original,
+  .devicon-visualstudio-plain,
+  .devicon-wordpress-plain {
+    color: $accent1;
+  }
+  .devicon-css3-plain,
+  .devicon-sass-original,
+  .devicon-vuejs-plain,
+  .devicon-slack-plain {
+    color: $accent2;
+  }
+  .devicon-javascript-plain,
+  .devicon-git-plain,
+  .devicon-bootstrap-plain,
+  .devicon-google-plain {
+    color: $accent3;
+  }
+  .devicon-jquery-plain-wordmark,
+  .devicon-github-plain,
+  .devicon-docker-plain {
+    color: $accent4;
+  }
 }
 
 //DESKTOP STYLES
-@media(max-width:940px){
-    .skillsList1{
-        li{
-            font-size:80px;
-        }
+@media (max-width: 940px) {
+  .skillsList1 {
+    li {
+      font-size: 65px;
     }
-    .skillsList2{
-        li{
-            font-size:80px;
-        }
+  }
+  .skillsList2 {
+    li {
+      font-size: 65px;
     }
+  }
+  .skillsList3 {
+    li {
+      font-size: 65px;
+    }
+  }
 }
-//IPAD STYLES 
+//IPAD STYLES
 @media (max-width: 768px) {
-    .skillsList1{
-        li{
-            font-size:70px;
-        }
+  .skillsList1 {
+    li {
+      font-size: 55px;
     }
-    .skillsList2{
-        li{
-            font-size:70px;
-        }
+  }
+  .skillsList2 {
+    li {
+      font-size: 55px;
     }
+  }
+  .skillsList3 {
+    li {
+      font-size: 55px;
+    }
+  }
 }
-@media(max-width:600px){
-    .mobile{
-        display:block;
+@media (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+  .skillsList1 {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li {
+      font-size: 50px;
     }
-    .desktop{
-        display:none;
+  }
+  .skillsList2 {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    li {
+      font-size: 50px;
     }
-    .skillsList1{
-        justify-content:space-around;
-        flex-wrap:wrap;
-        li{
-            font-size:60px;
-        }
+  }
+  .skillsList3 {
+    display: flex;
+    justify-content: space-around;
+    li {
+      font-size: 50px;
     }
-    .skillsList2{
-        justify-content:space-around;
-        flex-wrap:wrap;
-        li{
-            font-size:60px;
-        }
+  }
+  .skillsList4 {
+    display: flex;
+    justify-content: space-around;
+    li {
+      font-size: 50px;
     }
-    .skillsList3{
-        display:flex;
-        justify-content:space-around;
-        li{
-            font-size:60px;
-        }
+  }
+  .skillsList5 {
+    display: flex;
+    justify-content: space-around;
+    li {
+      font-size: 50px;
     }
+  }
 }

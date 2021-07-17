@@ -1,34 +1,36 @@
 // START OF GLOBAL STYLES
-html{
-    font-size:125%;
+html {
+  font-size: 125%;
 }
-body{
-    font-family:$primaryFont;
-    overscroll-behavior: none;
-    background:black;
+body {
+  font-family: $primaryFont;
+  overscroll-behavior: none;
+  background: black;
 }
-ul{
-    padding:20px 0;
-    margin:0;
+ul {
+  padding: 20px 0;
+  margin: 0;
 }
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
-a{
-    text-decoration:none;
+a {
+  text-decoration: none;
 }
-img{
-    width:100%;
+img {
+  width: 100%;
 }
-p{
-    margin:0;
+p {
+  margin: 0;
 }
-h1,h2,h3{
-    margin:0;
+h1,
+h2,
+h3 {
+  margin: 0;
 }
-.wrapper{
-    max-width:1280px;
-    width:80%;
-    margin:0 auto;
+.wrapper {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
 }
 //END OF GLOBAL STYLES
