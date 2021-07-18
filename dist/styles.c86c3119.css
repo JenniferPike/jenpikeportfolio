@@ -219,12 +219,12 @@ h3 {
 }
 
 .heading {
-  background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.7) 44%), url(/meB.f70eadf4.jpg);
+  background: linear-gradient(#16181e, rgba(0, 0, 0, 0.87) 3%), url(/domenico-loia-0m-eVEm7mfo-unsplash.1276485e.jpg);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1px;
-  height: calc(100vh - 65px);
+  height: calc(80vh - 65px);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -240,10 +240,11 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 1.6px;
+  text-align: center;
 }
 .heading .headName {
-  height: 60vh;
-  margin-left: 6%;
+  height: 36vh;
+  margin-left: 28%;
 }
 
 .tagline {

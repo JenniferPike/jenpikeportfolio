@@ -20,10 +20,14 @@
     "parcel-bundler": "^1.12.5",
     "sass": "^1.35.2"
   },
-  "dependencies": {},
-  "description": "",
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "styles": "^0.2.1"
+  },
   "includePaths": [
     "node_modules"
   ],
-  "outputStyle": "nested"
+  "outputStyle": "nested",
+  "description": ""
 }

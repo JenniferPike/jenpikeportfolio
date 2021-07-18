@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/meB.jpg":[["meB.f70eadf4.jpg","assets/meB.jpg"],"assets/meB.jpg"],"./../assets/mobile.jpg":[["mobile.d5e35b20.jpg","assets/mobile.jpg"],"assets/mobile.jpg"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../assets/domenico-loia-0m-eVEm7mfo-unsplash.jpg":[["domenico-loia-0m-eVEm7mfo-unsplash.1276485e.jpg","assets/domenico-loia-0m-eVEm7mfo-unsplash.jpg"],"assets/domenico-loia-0m-eVEm7mfo-unsplash.jpg"],"./../assets/mobile.jpg":[["mobile.d5e35b20.jpg","assets/mobile.jpg"],"assets/mobile.jpg"],"_css_loader":"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62268" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64573" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
