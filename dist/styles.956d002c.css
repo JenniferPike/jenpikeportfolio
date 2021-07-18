@@ -157,7 +157,9 @@ img {
 p {
   margin: 0; }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0; }
 
 .wrapper {
@@ -199,7 +201,7 @@ h1, h2, h3 {
     font-family: "Raleway", sans-serif;
     font-weight: 900; }
   .heading h2 {
-    color: #B1CD67;
+    color: #b1cd67;
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 1.6px; }
@@ -229,7 +231,7 @@ h1, h2, h3 {
   width: 45%; }
   .topNav button {
     display: none;
-    color: #83D0E4;
+    color: #83d0e4;
     border: none;
     background: none; }
   .topNav a {
@@ -240,7 +242,7 @@ h1, h2, h3 {
     letter-spacing: 3px;
     font-size: 0.8rem; }
   .topNav a:hover {
-    color: #EC9476; }
+    color: lightcoral; }
   .topNav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -340,7 +342,7 @@ h1, h2, h3 {
   min-height: 70vh; }
 
 .aboutMeTitle {
-  color: #EC9476;
+  color: lightcoral;
   letter-spacing: 1.7px;
   font-size: 1.2rem; }
 
@@ -420,12 +422,13 @@ h1, h2, h3 {
 
 .mySkills {
   background: #222533;
-  padding: 5% 0; }
+  padding: 45px 0; }
   .mySkills h2 {
     text-align: center;
     color: white;
-    font-size: 1.8rem;
-    letter-spacing: 2px; }
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin-bottom: 25px; }
 
 .mobile {
   display: none; }
@@ -436,9 +439,10 @@ h1, h2, h3 {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  padding: 10px 0px; }
   .skillsList1 li {
-    font-size: 100px; }
+    font-size: 65px; }
 
 .skillsList2 {
   display: -webkit-box;
@@ -446,36 +450,60 @@ h1, h2, h3 {
   display: flex;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  padding: 10px 0px; }
   .skillsList2 li {
-    font-size: 100px; }
+    font-size: 65px; }
 
-.skillsLists .devicon-html5-plain, .skillsLists .devicon-react-original, .skillsLists .devicon-visualstudio-plain {
-  color: #B1CD67; }
+.skillsList3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0px; }
+  .skillsList3 li {
+    font-size: 65px; }
+
+.skillsLists .devicon-html5-plain,
+.skillsLists .devicon-react-original,
+.skillsLists .devicon-visualstudio-plain,
+.skillsLists .devicon-wordpress-plain {
+  color: #b1cd67; }
 
 .skillsLists .devicon-css3-plain,
-.skillsLists .devicon-sass-original {
-  color: #83D0E4; }
+.skillsLists .devicon-sass-original,
+.skillsLists .devicon-vuejs-plain,
+.skillsLists .devicon-slack-plain {
+  color: #83d0e4; }
 
 .skillsLists .devicon-javascript-plain,
-.skillsLists .devicon-git-plain {
-  color: #EC9476; }
+.skillsLists .devicon-git-plain,
+.skillsLists .devicon-bootstrap-plain,
+.skillsLists .devicon-google-plain {
+  color: lightcoral; }
 
 .skillsLists .devicon-jquery-plain-wordmark,
-.skillsLists .devicon-github-plain {
-  color: #968BA2; }
+.skillsLists .devicon-github-plain,
+.skillsLists .devicon-docker-plain {
+  color: #968ba2; }
 
 @media (max-width: 940px) {
   .skillsList1 li {
-    font-size: 80px; }
+    font-size: 65px; }
   .skillsList2 li {
-    font-size: 80px; } }
+    font-size: 65px; }
+  .skillsList3 li {
+    font-size: 65px; } }
 
 @media (max-width: 768px) {
   .skillsList1 li {
-    font-size: 70px; }
+    font-size: 55px; }
   .skillsList2 li {
-    font-size: 70px; } }
+    font-size: 55px; }
+  .skillsList3 li {
+    font-size: 55px; } }
 
 @media (max-width: 600px) {
   .mobile {
@@ -488,14 +516,14 @@ h1, h2, h3 {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .skillsList1 li {
-      font-size: 60px; }
+      font-size: 50px; }
   .skillsList2 {
     -ms-flex-pack: distribute;
     justify-content: space-around;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
     .skillsList2 li {
-      font-size: 60px; }
+      font-size: 50px; }
   .skillsList3 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -503,17 +531,33 @@ h1, h2, h3 {
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     .skillsList3 li {
-      font-size: 60px; } }
+      font-size: 50px; }
+  .skillsList4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .skillsList4 li {
+      font-size: 50px; }
+  .skillsList5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    .skillsList5 li {
+      font-size: 50px; } }
 
 .projects {
-  background: #3C414E;
+  background: #3c414e;
   background: -webkit-linear-gradient(105deg, #323640 52%, #3c414e 52%);
   background: -o-linear-gradient(105deg, #323640 52%, #3c414e 52%);
   background: linear-gradient(345deg, #323640 52%, #3c414e 52%);
   padding: 5% 0; }
 
 .projectsTitle h2 {
-  color: #83D0E4;
+  color: #83d0e4;
   letter-spacing: 2px;
   text-align: center;
   padding-bottom: 4%;
@@ -549,7 +593,7 @@ h1, h2, h3 {
   width: 45%;
   color: white; }
   .projectInfo .skillUsed {
-    color: #EC9476;
+    color: lightcoral;
     padding-top: 34px;
     padding-bottom: 30px; }
   .projectInfo a {
@@ -558,16 +602,16 @@ h1, h2, h3 {
     background: #2e3141;
     color: white;
     letter-spacing: 2px;
-    border: 2px solid #B1CD67; }
+    border: 2px solid #b1cd67; }
   .projectInfo a:hover {
-    color: #83D0E4; }
+    color: #83d0e4; }
   .projectInfo h2 {
-    color: #B1CD67;
+    color: #b1cd67;
     padding-bottom: 5px; }
 
 .left,
 .right {
-  color: #B1CD67;
+  color: #b1cd67;
   background: none;
   border: none;
   font-size: 51px;
@@ -576,7 +620,7 @@ h1, h2, h3 {
 
 .left:hover,
 .right:hover {
-  color: #968BA2; }
+  color: #968ba2; }
 
 .desktopArrow {
   display: block; }
@@ -672,7 +716,7 @@ h1, h2, h3 {
   color: white;
   padding: 5% 0; }
   .contact h2 {
-    color: #968BA2;
+    color: #968ba2;
     font-size: 1.8rem;
     letter-spacing: 2px;
     text-align: center;
@@ -680,7 +724,7 @@ h1, h2, h3 {
   .contact a {
     color: white; }
   .contact a:hover {
-    color: #EC9476; }
+    color: lightcoral; }
 
 .contactMe {
   display: -webkit-box;
@@ -737,13 +781,13 @@ h1, h2, h3 {
     width: 100%;
     margin-bottom: 10px; }
   .contactForm .textInput {
-    border-bottom: 2px solid #B1CD67; }
+    border-bottom: 2px solid #b1cd67; }
   .contactForm .emailInput {
-    border-bottom: 2px solid #83D0E4; }
+    border-bottom: 2px solid #83d0e4; }
   .contactForm .messageInput {
-    border-bottom: 2px solid #EC9476; }
+    border-bottom: 2px solid lightcoral; }
   .contactForm .submitInput {
-    border: 2px solid #968BA2;
+    border: 2px solid #968ba2;
     color: #92949b; }
 
 .socialMedia {
@@ -759,13 +803,13 @@ h1, h2, h3 {
     -ms-flex-align: center;
     align-items: center; }
   .socialMedia .devicon-twitter-plain {
-    color: #B1CD67; }
+    color: #b1cd67; }
   .socialMedia .fa-linkedin {
-    color: #83D0E4; }
+    color: #83d0e4; }
   .socialMedia .devicon-github-plain {
-    color: #EC9476; }
+    color: lightcoral; }
   .socialMedia .fa-medium {
-    color: #968BA2; }
+    color: #968ba2; }
   .socialMedia i {
     font-size: 30px; }
   .socialMedia i:hover {
