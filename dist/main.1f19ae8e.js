@@ -143,7 +143,7 @@ $(function () {
 
     if ($prev.length === 0) {
       $(".projectExample .active").removeClass("active").addClass("hidden");
-      $(".projectExample .project4").removeClass("hidden").addClass("active");
+      $(".projectExample .project5").removeClass("hidden").addClass("active");
       return; //do nothing
     }
 
@@ -178,7 +178,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62268" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65142" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
