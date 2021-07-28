@@ -373,7 +373,7 @@ h3 {
   }
 
   .heading {
-    background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.7) 44%), url(/mobile.d5e35b20.jpg);
+    background: linear-gradient(#16181e, rgba(0, 0, 0, 0.8) 3%), url(/cottagedogs.0e2e1aae.png);
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;

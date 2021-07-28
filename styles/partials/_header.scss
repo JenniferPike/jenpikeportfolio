@@ -18,9 +18,19 @@
   //     url(../assets/jared-brashier-6WPcf5D1XdA-unsplash.jpg);
   //   background: linear-gradient(#424859, rgba(60, 65, 78, 0.83) 2%),
   //     url(../assets/scott-webb-ZLeogVvtXk0-unsplash.jpg);
+  //   background: linear-gradient(#16181e, rgba(0, 0, 0, 0.87) 3%),
+  //     url(../assets/bdawg.png);
+
+  // favourite one so far
   background: linear-gradient(#16181e, rgba(0, 0, 0, 0.87) 3%),
     url(../assets/domenico-loia-0m-eVEm7mfo-unsplash.jpg);
   background-position: bottom right;
+  //   background: linear-gradient(#16181e, rgba(0, 0, 0, 0.87) 3%),
+  //     url(../assets/bandbean.jpg);
+  //   background: linear-gradient(#16181e, rgba(0, 0, 0, 0.8) 3%),
+  //     url(../assets/cottagedogs.png);
+
+  //   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1px;
@@ -181,9 +191,14 @@
     }
   }
   .heading {
-    background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.7) 44%),
-      url(../assets/mobile.jpg);
-    background-position: center bottom;
+    // background: linear-gradient(148deg, #3c414e 44%, rgba(60, 65, 78, 0.7) 44%),
+    //   url(../assets/mobile.jpg);
+    background: linear-gradient(#16181e, rgba(0, 0, 0, 0.87) 3%),
+      url(../assets/domenico-loia-0m-eVEm7mfo-unsplash.jpg);
+    background-position: bottom right;
+    // background: linear-gradient(#16181e, rgba(0, 0, 0, 0.8) 3%),
+    //   url(../assets/cottagedogs.png);
+    // background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
     h1 {
